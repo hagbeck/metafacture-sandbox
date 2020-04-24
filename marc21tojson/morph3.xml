@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.culturegraph.org/metamorph metamorph.xsd"
+           version="1">
+
+    <meta> <!-- Metadata -->
+        <name>MARC21-XML to JSON</name>
+    </meta>
+
+    <macros> <!-- Macro definitions --> </macros>
+
+    <rules> <!-- Transformation rules-->
+
+        <!-- flatten and clean the data -->
+        <data source="subject_int.topic" name="subject_int_txt_de">
+            <replace pattern="#ML-" with=""/>
+            <replace pattern="#-" with=""/>
+        </data>
+
+        <data source="subject_masch.topic" name="subject_masch_txt_de">
+            <replace pattern="#ML-" with=""/>
+            <replace pattern="#-" with=""/>
+        </data>
+
+        <data source="_else"/>
+
+    </rules>
+
+    <maps> <!-- Data maps --> </maps>
+
+</metamorph>

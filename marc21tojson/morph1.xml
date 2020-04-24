@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.culturegraph.org/metamorph metamorph.xsd"
+           version="1">
+
+    <meta> <!-- Metadata -->
+        <name>MARC21-XML to JSON</name>
+    </meta>
+
+    <macros> <!-- Macro definitions --> </macros>
+
+    <rules> <!-- Transformation rules-->
+
+        <data source="001" name="id"/>
+
+        <data source="245??.a" name="title_txt_de"/>
+
+        <!-- mark subjects based on the existence of 650??.8 -->
+        <combine name="subject" value="${subject}#${prov}-" flushWith="650??.2" reset="true">
+            <data source="650??.8" name="prov">
+                <constant value="ML" />
+            </data>
+            <data source="650??.a" name="subject"/>
+        </combine>
+
+    </rules>
+
+    <maps> <!-- Data maps --> </maps>
+
+</metamorph>

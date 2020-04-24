@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.culturegraph.org/metamorph metamorph.xsd"
+           version="1">
+
+    <meta> <!-- Metadata -->
+        <name>MARC21-XML to JSON</name>
+    </meta>
+
+    <macros> <!-- Macro definitions --> </macros>
+
+    <rules> <!-- Transformation rules-->
+
+        <!-- distribute subjects marked with ML to a new entity -->
+        <entity name="subject_masch" flushWith="subject" reset="true">
+            <if>
+                <data source="subject">
+                    <regexp match="#.+-$"/>
+                </data>
+            </if>
+            <combine name="topic" value="${subject}" flushWith="subject">
+                <data source="subject"/>
+            </combine>
+        </entity>
+
+        <!-- distribute subjects marked not with ML to a new entity -->
+        <entity name="subject_int" flushWith="subject" reset="true">
+            <if>
+                <data source="subject">
+                    <regexp match="#-$"/>
+                </data>
+            </if>
+            <combine name="topic" value="${subject}" flushWith="subject">
+                <data source="subject"/>
+            </combine>
+        </entity>
+
+        <data source="_else"/>
+
+    </rules>
+
+    <maps> <!-- Data maps --> </maps>
+
+</metamorph>
