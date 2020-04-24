@@ -16,6 +16,7 @@
         <entity name="subject_masch" flushWith="subject" reset="true">
             <if>
                 <data source="subject">
+                    <!-- subject ends with "# plus one or more characters plus -", e.g. "#ML-" -->
                     <regexp match="#.+-$"/>
                 </data>
             </if>
@@ -28,6 +29,7 @@
         <entity name="subject_int" flushWith="subject" reset="true">
             <if>
                 <data source="subject">
+                    <!-- subject ends with "#-" -->
                     <regexp match="#-$"/>
                 </data>
             </if>
