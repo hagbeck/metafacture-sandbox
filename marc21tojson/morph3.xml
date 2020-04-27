@@ -13,15 +13,18 @@
     <rules> <!-- Transformation rules-->
 
         <!-- flatten and clean the data -->
-        <data source="subject_int.topic" name="subject_int_txt_de">
-            <replace pattern="#ML-" with=""/>
-            <replace pattern="#-" with=""/>
-        </data>
-
-        <data source="subject_masch.topic" name="subject_masch_txt_de">
-            <replace pattern="#ML-" with=""/>
-            <replace pattern="#-" with=""/>
-        </data>
+        <entity name="subject_int_txt_de[]" flushWith="record">
+            <data source="subject_int.topic" name="subject_int_txt_de">
+                <replace pattern="#ML-" with=""/>
+                <replace pattern="#-" with=""/>
+            </data>
+        </entity>
+        <entity name="subject_masch_txt_de[]" flushWith="record">
+            <data source="subject_masch.topic">
+                <replace pattern="#ML-" with=""/>
+                <replace pattern="#-" with=""/>
+            </data>
+        </entity>
 
         <data source="_else"/>
 
