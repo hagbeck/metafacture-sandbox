@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.culturegraph.org/metamorph metamorph.xsd"
+           version="1">
+
+    <meta> <!-- Metadata -->
+        <name>MARC-XML to MARC-XML</name>
+    </meta>
+
+    <macros> <!-- Macro definitions --> </macros>
+
+    <rules> <!-- Transformation rules-->
+
+        <entity name="leader">
+            <data source="leader"/>
+        </entity>
+
+        <data name="001" source="001">
+        </data>
+
+        <entity name="035  " flushWith="record">
+            <data source="001" name="a">
+                <whitelist map="IDs"/>
+                <constant value="exclude"/>
+            </data>
+        </entity>
+        <entity name="035  " flushWith="record">
+            <data source="001" name="a">
+                <whitelist map="IDs"/>
+                <lookup in="IDs" default="" />
+            </data>
+        </entity>
+
+    </rules>
+
+    <maps>
+        <filemap name="IDs" files="$[id_map]"/>
+    </maps>
+
+</metamorph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:leader>04125cam a2200457Ii 4500</marc:leader>
+		<marc:controlfield tag="001">BRILL9789004364486</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">exclude</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">NZ-A</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+
+	<marc:record>
+		<marc:leader>02811cam a2200397Ii 4500</marc:leader>
+		<marc:controlfield tag="001">BRILL9789004364622</marc:controlfield>
+	</marc:record>
+
+	<marc:record>
+		<marc:leader>03140cam a2200421Ii 4500</marc:leader>
+		<marc:controlfield tag="001">BRILL9789004367272</marc:controlfield>
+	</marc:record>
+
+	<marc:record>
+		<marc:leader>05319cam a2200481Ii 4500</marc:leader>
+		<marc:controlfield tag="001">BRILL9789004369603</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">exclude</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">NZ-P2E</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+
+</marc:collection>
