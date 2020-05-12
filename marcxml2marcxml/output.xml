@@ -4,13 +4,16 @@
 		<marc:leader>04125cam a2200457Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004364486</marc:controlfield>
 		<marc:datafield tag="035" ind1=" " ind2=" ">
-			<marc:subfield code="a">(NZEXCLUDE)NZEXCLUDE</marc:subfield>
+			<marc:subfield code="a">(NZEXCLUDE)BRILL9789004364486</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:leader>02811cam a2200397Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004364622</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(IZEXCLUDE2)9789004364622</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
@@ -22,7 +25,7 @@
 		<marc:leader>05319cam a2200481Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004369603</marc:controlfield>
 		<marc:datafield tag="035" ind1=" " ind2=" ">
-			<marc:subfield code="a">(IZEXCLUDE)IZEXCLUDE</marc:subfield>
+			<marc:subfield code="a">(IZEXCLUDE1)BRILL9789004369603</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 

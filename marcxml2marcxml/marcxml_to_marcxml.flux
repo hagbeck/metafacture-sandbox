@@ -2,7 +2,8 @@ default outfile = "output.xml";
 default infile = FLUX_DIR + "input.xml";
 default morphfile1 = FLUX_DIR + "morph1.xml";
 
-default id_map = FLUX_DIR + "ids.tsv";
+default nzexclude_ids = FLUX_DIR + "nzexclude.tsv";
+default izexclude_ids = FLUX_DIR + "izexclude.tsv";
 
 infile|
 open-file|

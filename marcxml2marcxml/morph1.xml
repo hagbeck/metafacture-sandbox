@@ -18,36 +18,50 @@
 
         <data name="001" source="001"/>
 
-        <!--<entity name="035  " flushWith="record">
-            <data source="001" name="a">
-                <whitelist map="IDs"/>
-                <constant value="exclude"/>
-            </data>
-        </entity>
-        <entity name="035  " flushWith="record">
-            <data source="001" name="a">
-                <whitelist map="IDs"/>
-                <lookup in="IDs" default=""/>
-                <compose prefix="(" postfix=")"/>
-            </data>
-        </entity>-->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
 				<data source="001">
-					<whitelist map="IDs"/>
-					<lookup in="IDs" default="" />
+					<whitelist map="nzexclude_ids"/>
+					<lookup in="nzexclude_ids" default="" />
 					<compose prefix="(" postfix=")"/>
 				</data>
                 <data source="001">
-					<whitelist map="IDs"/>
-					<lookup in="IDs" default="" />
+					<whitelist map="nzexclude_ids"/>
                 </data>
 			</concat>
 		</entity>
+
+        <entity name="035  " flushWith="record">
+			<concat name="a" delimiter="">
+				<data source="001">
+					<whitelist map="izexclude_ids"/>
+					<lookup in="izexclude_ids" default="" />
+					<compose prefix="(" postfix=")"/>
+				</data>
+                <data source="001">
+					<whitelist map="izexclude_ids"/>
+                </data>
+			</concat>
+		</entity>
+
+        <entity name="035  " flushWith="record">
+			<concat name="a" delimiter="">
+				<data source="020??.a">
+					<whitelist map="izexclude_ids"/>
+					<lookup in="izexclude_ids" default="" />
+					<compose prefix="(" postfix=")"/>
+				</data>
+                <data source="020??.a">
+					<whitelist map="izexclude_ids"/>
+                </data>
+			</concat>
+		</entity>
+
     </rules>
 
     <maps>
-        <filemap name="IDs" files="$[id_map]"/>
+        <filemap name="nzexclude_ids" files="$[nzexclude_ids]"/>
+        <filemap name="izexclude_ids" files="$[izexclude_ids]"/>
     </maps>
 
 </metamorph>
