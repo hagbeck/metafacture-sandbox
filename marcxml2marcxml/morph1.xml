@@ -16,10 +16,9 @@
             <data source="leader"/>
         </entity>
 
-        <data name="001" source="001">
-        </data>
+        <data name="001" source="001"/>
 
-        <entity name="035  " flushWith="record">
+        <!--<entity name="035  " flushWith="record">
             <data source="001" name="a">
                 <whitelist map="IDs"/>
                 <constant value="exclude"/>
@@ -28,10 +27,23 @@
         <entity name="035  " flushWith="record">
             <data source="001" name="a">
                 <whitelist map="IDs"/>
-                <lookup in="IDs" default="" />
+                <lookup in="IDs" default=""/>
+                <compose prefix="(" postfix=")"/>
             </data>
-        </entity>
-
+        </entity>-->
+        <entity name="035  " flushWith="record">
+			<concat name="a" delimiter="">
+				<data source="001">
+					<whitelist map="IDs"/>
+					<lookup in="IDs" default="" />
+					<compose prefix="(" postfix=")"/>
+				</data>
+                <data source="001">
+					<whitelist map="IDs"/>
+					<lookup in="IDs" default="" />
+                </data>
+			</concat>
+		</entity>
     </rules>
 
     <maps>
