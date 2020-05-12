@@ -18,6 +18,7 @@
 
         <data name="001" source="001"/>
 
+        <!-- new "035  .a" based on nzexclude hbz-ID map -->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
 				<data source="001">
@@ -31,6 +32,7 @@
 			</concat>
 		</entity>
 
+        <!-- new "035  .a" based on izexclude hbz-ID map -->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
 				<data source="001">
@@ -44,6 +46,7 @@
 			</concat>
 		</entity>
 
+        <!-- new "035  .a" based on izexclude Katkey map (currently ISBNs because the correct field i unknown ;-) ) -->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
 				<data source="020??.a">
