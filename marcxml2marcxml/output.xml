@@ -3,27 +3,40 @@
 	<marc:record>
 		<marc:leader>04125cam a2200457Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004364486</marc:controlfield>
+		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
+		<marc:controlfield tag="008">180201s2018    mau     sb    000 0 eng d</marc:controlfield>
 		<marc:datafield tag="035" ind1=" " ind2=" ">
-			<marc:subfield code="a">(NZEXCLUDE)BRILL9789004364486</marc:subfield>
+			<marc:subfield code="a">(OCoLC)1016406372</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:leader>02811cam a2200397Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004364622</marc:controlfield>
-		<marc:datafield tag="035" ind1=" " ind2=" ">
-			<marc:subfield code="a">(IZEXCLUDE2)9789004364622</marc:subfield>
-		</marc:datafield>
+		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
+		<marc:controlfield tag="008">180411s2018    ne      s     000 0 eng d</marc:controlfield>
 	</marc:record>
 
 	<marc:record>
 		<marc:leader>03140cam a2200421Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004367272</marc:controlfield>
+		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
+		<marc:controlfield tag="008">180411s2018    ne      s     000 0 eng d</marc:controlfield>
 	</marc:record>
 
 	<marc:record>
 		<marc:leader>05319cam a2200481Ii 4500</marc:leader>
 		<marc:controlfield tag="001">BRILL9789004369603</marc:controlfield>
+		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
+		<marc:controlfield tag="008">180521s2018    ne      sb    000 0 eng d</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">2018024881</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="0" ind2="0">
+			<marc:subfield code="a">Creativities in arts education, research and practice :</marc:subfield>
+			<marc:subfield code="b">international perspectives for the future of learning and teaching /</marc:subfield>
+			<marc:subfield code="c">edited by Leon R. de Bruin, Pamela Burnard and Susan Davis.</marc:subfield>
+		</marc:datafield>
 		<marc:datafield tag="035" ind1=" " ind2=" ">
 			<marc:subfield code="a">(IZEXCLUDE1)BRILL9789004369603</marc:subfield>
 		</marc:datafield>

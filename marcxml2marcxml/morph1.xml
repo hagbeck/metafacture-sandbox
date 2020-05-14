@@ -5,34 +5,83 @@
            version="1">
 
     <meta> <!-- Metadata -->
-        <name>MARC-XML to MARC-XML</name>
+        <name>Enrich MARC-XML with additional collection marker</name>
     </meta>
 
     <macros> <!-- Macro definitions --> </macros>
 
     <rules> <!-- Transformation rules-->
 
+		<!--
+           >>> COPY ALL SOURCES TO TARGET <<<
+        -->
+
         <entity name="leader">
             <data source="leader"/>
         </entity>
 
         <data name="001" source="001"/>
+        <data name="007" source="007"/>
+        <data name="008" source="008"/>
 
-        <!-- new "035  .a" based on nzexclude hbz-ID map -->
+		<entity name="035  " flushWith="record">
+			<data source="035  .a" name="a" />
+		</entity>
+
+		<entity name="24500" flushWith="record">
+			<data source="24500.a" name="a" />
+			<data source="24500.b" name="b" />
+			<data source="24500.c" name="c" />
+			<data source="24500.h" name="h" />
+			<data source="24500.n" name="n" />
+			<data source="24500.y" name="y" />
+			<data source="24500.z" name="z" />
+		</entity>
+
+		<entity name="85640" flushWith="record" reset="true">
+			<data source="85640.q" name="q" />
+			<data source="85640.u" name="u" />
+			<data source="85640.x" name="x" />
+			<data source="85640.3" name="3" />
+		</entity>
+
+        <!--
+           >>> ENRICHMENT <<<
+        -->
+
+        <!-- add new "035  .a" based on nzexclude hbz-ID map -->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
-				<data source="001">
+				<data source="035??.a">
+					<replace pattern="\(UNION_SEAL\)"  with=""/>
 					<whitelist map="nzexclude_ids"/>
 					<lookup in="nzexclude_ids" default="" />
 					<compose prefix="(" postfix=")"/>
 				</data>
-                <data source="001">
+                <data source="035??.a">
+					<replace pattern="\(UNION_SEAL\)"  with=""/>
 					<whitelist map="nzexclude_ids"/>
                 </data>
 			</concat>
 		</entity>
 
-        <!-- new "035  .a" based on izexclude hbz-ID map -->
+        <!-- add new "035  .a" based on izexclude hbz-ID map -->
+        <entity name="035  " flushWith="record">
+			<concat name="a" delimiter="">
+				<data source="035??.a">
+					<replace pattern="\(UNION_SEAL\)"  with=""/>
+					<whitelist map="izexclude_ids"/>
+					<lookup in="izexclude_ids" default="" />
+					<compose prefix="(" postfix=")"/>
+				</data>
+                <data source="035??.a">
+					<replace pattern="\(UNION_SEAL\)"  with=""/>
+					<whitelist map="izexclude_ids"/>
+                </data>
+			</concat>
+		</entity>
+
+        <!-- add new "035  .a" based on izexclude Katkey map -->
         <entity name="035  " flushWith="record">
 			<concat name="a" delimiter="">
 				<data source="001">
@@ -41,20 +90,6 @@
 					<compose prefix="(" postfix=")"/>
 				</data>
                 <data source="001">
-					<whitelist map="izexclude_ids"/>
-                </data>
-			</concat>
-		</entity>
-
-        <!-- new "035  .a" based on izexclude Katkey map (currently ISBNs because the correct field i unknown ;-) ) -->
-        <entity name="035  " flushWith="record">
-			<concat name="a" delimiter="">
-				<data source="020??.a">
-					<whitelist map="izexclude_ids"/>
-					<lookup in="izexclude_ids" default="" />
-					<compose prefix="(" postfix=")"/>
-				</data>
-                <data source="020??.a">
 					<whitelist map="izexclude_ids"/>
                 </data>
 			</concat>
