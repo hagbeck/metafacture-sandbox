@@ -16,10 +16,6 @@
            >>> COPY ALL SOURCES TO TARGET <<<
         -->
 
-        <entity name="leader">
-            <data source="leader"/>
-        </entity>
-
         <data source="_else"/>
     </rules>
 
