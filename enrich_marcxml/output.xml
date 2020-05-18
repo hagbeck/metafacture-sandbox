@@ -2,313 +2,541 @@
 <marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<marc:record>
 		<marc:controlfield tag="type">Bibliographic</marc:controlfield>
-		<marc:leader>04125cam a2200457Ii 4500</marc:leader>
+		<marc:controlfield tag="leader">04125cam a2200457Ii 4500</marc:controlfield>
 		<marc:controlfield tag="001">BRILL9789004364486</marc:controlfield>
 		<marc:controlfield tag="003">nllekb</marc:controlfield>
 		<marc:controlfield tag="005">20190826145055.0</marc:controlfield>
 		<marc:controlfield tag="006">m        d</marc:controlfield>
 		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
 		<marc:controlfield tag="008">180201s2018    mau     sb    000 0 eng d</marc:controlfield>
-		<marc:controlfield tag="010  .a">2018001103</marc:controlfield>
-		<marc:controlfield tag="020  .a">9789004364486</marc:controlfield>
-		<marc:controlfield tag="020  .q">(electronic book)</marc:controlfield>
-		<marc:controlfield tag="020  .z">9789004364479</marc:controlfield>
-		<marc:controlfield tag="020  .q">(print)</marc:controlfield>
-		<marc:controlfield tag="0247 .a">10.1163/9789004364486</marc:controlfield>
-		<marc:controlfield tag="0247 .2">DOI</marc:controlfield>
-		<marc:controlfield tag="035  .a">(OCoLC)1016406372</marc:controlfield>
-		<marc:controlfield tag="035  .z">(OCoLC)1016343411</marc:controlfield>
-		<marc:controlfield tag="040  .a">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .c">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .e">rda</marc:controlfield>
-		<marc:controlfield tag="050 4.a">LB1025.3</marc:controlfield>
-		<marc:controlfield tag="050 4.b">.T537 2018</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JN</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU000000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="08204.a">371.102</marc:controlfield>
-		<marc:controlfield tag="08204.2">23</marc:controlfield>
-		<marc:controlfield tag="1001 .a">Thornton, Holly J.</marc:controlfield>
-		<marc:controlfield tag="24514.a">The it factor :</marc:controlfield>
-		<marc:controlfield tag="24514.b">what makes a teacher great? /</marc:controlfield>
-		<marc:controlfield tag="24514.c">by Holly J. Thornton.</marc:controlfield>
-		<marc:controlfield tag="264 1.a">Boston :</marc:controlfield>
-		<marc:controlfield tag="264 1.b">Brill Sense,</marc:controlfield>
-		<marc:controlfield tag="264 1.c">[2018]</marc:controlfield>
-		<marc:controlfield tag="300  .a">1 online resource (viii, 179 pages)</marc:controlfield>
-		<marc:controlfield tag="336  .a">text</marc:controlfield>
-		<marc:controlfield tag="336  .b">txt</marc:controlfield>
-		<marc:controlfield tag="336  .2">rdacontent</marc:controlfield>
-		<marc:controlfield tag="337  .a">computer</marc:controlfield>
-		<marc:controlfield tag="337  .b">c</marc:controlfield>
-		<marc:controlfield tag="337  .2">rdamedia</marc:controlfield>
-		<marc:controlfield tag="338  .a">online resource</marc:controlfield>
-		<marc:controlfield tag="338  .2">rdacarrier</marc:controlfield>
-		<marc:controlfield tag="4900 .a">Advances in teaching and teacher education ;</marc:controlfield>
-		<marc:controlfield tag="4900 .v">2</marc:controlfield>
-		<marc:controlfield tag="504  .a">Includes bibliographical references.</marc:controlfield>
-		<marc:controlfield tag="50500.a">Front Matter -- Copyright page -- Preface -- What Is It and Why Does It Matter? -- My Journey with Dispositions -- Dispositions in Action: What Do They Look Like? -- What Are Dispositions, Really? -- How Do Dispositions Align with Child Development? -- Why Dispositions? Why Now? -- What Does it Look Like? Responsive Dispositions in the Classroom -- Assessment: The Disposition to Be Critical and Challenging by Lois Boone -- Instruction: The Disposition to Be Facilitative by Sarah Chapman -- Instruction: The Disposition to Be Creative by Jessi Hall -- Management: The Disposition to Empower by Kim Tufts -- Management: The Disposition to Connect by Brooke Huffman -- Professionalism: The Disposition towards Change by Kellie Johnson -- Professionalism: The Disposition to Be Inclusive by Kalie Eppley -- Just do it: Processes and Tools -- Using DIA: Breaking it Down -- The It Factor Tool Kit -- Next Steps for DIA: A Call to Action.</marc:controlfield>
-		<marc:controlfield tag="506  .a">Available to subscribing member institutions only.</marc:controlfield>
-		<marc:controlfield tag="520  .a">The impact a teacher has on students may be profound and lasting. Thus, teacher preparation is grounded in standards to assure that all teacher candidates know the content and have the skills needed to become good teachers. What makes a teacher great? The answer is not clear-cut or easily measured with tests. But we all know a great teacher when we see one. The best teachers have an It Factor that sets them apart from others. It is seemingly intangible and unteachable, as it’s often said that, “Some people are just born to be teachers.” This book challenges that assumption and uncovers the It Factor . Teacher and student voices helped to develop language and tools to examine how teachers are disposed to think and act and how this affects student learning. If we can identify what makes teachers great, we can teach it. Students have a sea of information, opinions and messaging at their fingertips. They find themselves navigating through a myriad of facts and “alternative facts.” Opinions, beliefs, and fallacies share the same platform and status as well grounded information and vetted ideas, fueling tensions among individuals and distance between groups. Developing students who are caring, critical thinkers and problem-solvers may be more important now than ever. The teachers who are right for this challenge have more than content knowledge and teaching skills. To meet this challenge, teachers need to have “It,” that something inside that makes them not just good teachers, but great ones.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Effective teaching.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Motivation in education.</marc:controlfield>
-		<marc:controlfield tag="650 7.a">Effective teaching.</marc:controlfield>
-		<marc:controlfield tag="650 7.2">fast</marc:controlfield>
-		<marc:controlfield tag="650 7.a">Motivation in education.</marc:controlfield>
-		<marc:controlfield tag="650 7.2">fast</marc:controlfield>
-		<marc:controlfield tag="77608.i">Online version:</marc:controlfield>
-		<marc:controlfield tag="77608.a">Thornton, Holly J.</marc:controlfield>
-		<marc:controlfield tag="77608.t">It factor.</marc:controlfield>
-		<marc:controlfield tag="77608.d">Boston : Brill Sense, [2018]</marc:controlfield>
-		<marc:controlfield tag="77608.z">9789004364486</marc:controlfield>
-		<marc:controlfield tag="77608.w">(DLC)  2018006164</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Advances in Teaching and Teacher Education</marc:controlfield>
-		<marc:controlfield tag="830 0.v">2.</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:controlfield>
-		<marc:controlfield tag="8564 .z">DOI:</marc:controlfield>
-		<marc:controlfield tag="8564 .u">http://dx.doi.org/10.1163/9789004364486</marc:controlfield>
+		<marc:datafield tag="010" ind1=" " ind2=" ">
+			<marc:subfield code="a">2018001103</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="a">9789004364486</marc:subfield>
+			<marc:subfield code="q">(electronic book)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="z">9789004364479</marc:subfield>
+			<marc:subfield code="q">(print)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="024" ind1="7" ind2=" ">
+			<marc:subfield code="a">10.1163/9789004364486</marc:subfield>
+			<marc:subfield code="2">DOI</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(OCoLC)1016406372</marc:subfield>
+			<marc:subfield code="z">(OCoLC)1016343411</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind1=" " ind2=" ">
+			<marc:subfield code="a">NL-LeKB</marc:subfield>
+			<marc:subfield code="c">NL-LeKB</marc:subfield>
+			<marc:subfield code="e">rda</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="050" ind1=" " ind2="4">
+			<marc:subfield code="a">LB1025.3</marc:subfield>
+			<marc:subfield code="b">.T537 2018</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JN</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU000000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="082" ind1="0" ind2="4">
+			<marc:subfield code="a">371.102</marc:subfield>
+			<marc:subfield code="2">23</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="100" ind1="1" ind2=" ">
+			<marc:subfield code="a">Thornton, Holly J.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="1" ind2="4">
+			<marc:subfield code="a">The it factor :</marc:subfield>
+			<marc:subfield code="b">what makes a teacher great? /</marc:subfield>
+			<marc:subfield code="c">by Holly J. Thornton.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="264" ind1=" " ind2="1">
+			<marc:subfield code="a">Boston :</marc:subfield>
+			<marc:subfield code="b">Brill Sense,</marc:subfield>
+			<marc:subfield code="c">[2018]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="300" ind1=" " ind2=" ">
+			<marc:subfield code="a">1 online resource (viii, 179 pages)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="336" ind1=" " ind2=" ">
+			<marc:subfield code="a">text</marc:subfield>
+			<marc:subfield code="b">txt</marc:subfield>
+			<marc:subfield code="2">rdacontent</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="337" ind1=" " ind2=" ">
+			<marc:subfield code="a">computer</marc:subfield>
+			<marc:subfield code="b">c</marc:subfield>
+			<marc:subfield code="2">rdamedia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="338" ind1=" " ind2=" ">
+			<marc:subfield code="a">online resource</marc:subfield>
+			<marc:subfield code="2">rdacarrier</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="490" ind1="0" ind2=" ">
+			<marc:subfield code="a">Advances in teaching and teacher education ;</marc:subfield>
+			<marc:subfield code="v">2</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="504" ind1=" " ind2=" ">
+			<marc:subfield code="a">Includes bibliographical references.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="505" ind1="0" ind2="0">
+			<marc:subfield code="a">Front Matter -- Copyright page -- Preface -- What Is It and Why Does It Matter? -- My Journey with Dispositions -- Dispositions in Action: What Do They Look Like? -- What Are Dispositions, Really? -- How Do Dispositions Align with Child Development? -- Why Dispositions? Why Now? -- What Does it Look Like? Responsive Dispositions in the Classroom -- Assessment: The Disposition to Be Critical and Challenging by Lois Boone -- Instruction: The Disposition to Be Facilitative by Sarah Chapman -- Instruction: The Disposition to Be Creative by Jessi Hall -- Management: The Disposition to Empower by Kim Tufts -- Management: The Disposition to Connect by Brooke Huffman -- Professionalism: The Disposition towards Change by Kellie Johnson -- Professionalism: The Disposition to Be Inclusive by Kalie Eppley -- Just do it: Processes and Tools -- Using DIA: Breaking it Down -- The It Factor Tool Kit -- Next Steps for DIA: A Call to Action.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="506" ind1=" " ind2=" ">
+			<marc:subfield code="a">Available to subscribing member institutions only.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="520" ind1=" " ind2=" ">
+			<marc:subfield code="a">The impact a teacher has on students may be profound and lasting. Thus, teacher preparation is grounded in standards to assure that all teacher candidates know the content and have the skills needed to become good teachers. What makes a teacher great? The answer is not clear-cut or easily measured with tests. But we all know a great teacher when we see one. The best teachers have an It Factor that sets them apart from others. It is seemingly intangible and unteachable, as it’s often said that, “Some people are just born to be teachers.” This book challenges that assumption and uncovers the It Factor . Teacher and student voices helped to develop language and tools to examine how teachers are disposed to think and act and how this affects student learning. If we can identify what makes teachers great, we can teach it. Students have a sea of information, opinions and messaging at their fingertips. They find themselves navigating through a myriad of facts and “alternative facts.” Opinions, beliefs, and fallacies share the same platform and status as well grounded information and vetted ideas, fueling tensions among individuals and distance between groups. Developing students who are caring, critical thinkers and problem-solvers may be more important now than ever. The teachers who are right for this challenge have more than content knowledge and teaching skills. To meet this challenge, teachers need to have “It,” that something inside that makes them not just good teachers, but great ones.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Effective teaching.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Motivation in education.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="7">
+			<marc:subfield code="a">Effective teaching.</marc:subfield>
+			<marc:subfield code="2">fast</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="7">
+			<marc:subfield code="a">Motivation in education.</marc:subfield>
+			<marc:subfield code="2">fast</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="776" ind1="0" ind2="8">
+			<marc:subfield code="i">Online version:</marc:subfield>
+			<marc:subfield code="a">Thornton, Holly J.</marc:subfield>
+			<marc:subfield code="t">It factor.</marc:subfield>
+			<marc:subfield code="d">Boston : Brill Sense, [2018]</marc:subfield>
+			<marc:subfield code="z">9789004364486</marc:subfield>
+			<marc:subfield code="w">(DLC)  2018006164</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Advances in Teaching and Teacher Education</marc:subfield>
+			<marc:subfield code="v">2.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="z">DOI:</marc:subfield>
+			<marc:subfield code="u">http://dx.doi.org/10.1163/9789004364486</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:controlfield tag="type">Bibliographic</marc:controlfield>
-		<marc:leader>02811cam a2200397Ii 4500</marc:leader>
+		<marc:controlfield tag="leader">02811cam a2200397Ii 4500</marc:controlfield>
 		<marc:controlfield tag="001">BRILL9789004364622</marc:controlfield>
 		<marc:controlfield tag="003">nllekb</marc:controlfield>
 		<marc:controlfield tag="005">20190826145055.0</marc:controlfield>
 		<marc:controlfield tag="006">m        d</marc:controlfield>
 		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
 		<marc:controlfield tag="008">180411s2018    ne      s     000 0 eng d</marc:controlfield>
-		<marc:controlfield tag="020  .a">9789004364622</marc:controlfield>
-		<marc:controlfield tag="020  .q">(electronic book)</marc:controlfield>
-		<marc:controlfield tag="020  .z">9789004364608</marc:controlfield>
-		<marc:controlfield tag="020  .q">(print)</marc:controlfield>
-		<marc:controlfield tag="0247 .a">10.1163/9789004364622</marc:controlfield>
-		<marc:controlfield tag="0247 .2">DOI</marc:controlfield>
-		<marc:controlfield tag="040  .a">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .c">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .e">rda</marc:controlfield>
-		<marc:controlfield tag="050 4.a">LC1090</marc:controlfield>
-		<marc:controlfield tag="050 4.b">.W45 2018</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JNFR</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU020000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JNFR</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU020000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="08204.a">370.116</marc:controlfield>
-		<marc:controlfield tag="08204.2">23</marc:controlfield>
-		<marc:controlfield tag="1001 .a">White, Cameron.</marc:controlfield>
-		<marc:controlfield tag="24510.a">Internationalizing education :</marc:controlfield>
-		<marc:controlfield tag="24510.b">local to global connections for the 21st century /</marc:controlfield>
-		<marc:controlfield tag="24510.c">Cameron White.</marc:controlfield>
-		<marc:controlfield tag="264 1.a">Leiden, Netherlands :</marc:controlfield>
-		<marc:controlfield tag="264 1.b">Brill Publishers,</marc:controlfield>
-		<marc:controlfield tag="264 1.c">2018.</marc:controlfield>
-		<marc:controlfield tag="300  .a">1 online resource (200 pages) ;</marc:controlfield>
-		<marc:controlfield tag="300  .c">cm.</marc:controlfield>
-		<marc:controlfield tag="336  .a">text</marc:controlfield>
-		<marc:controlfield tag="336  .b">txt</marc:controlfield>
-		<marc:controlfield tag="336  .2">rdacontent</marc:controlfield>
-		<marc:controlfield tag="337  .a">computer</marc:controlfield>
-		<marc:controlfield tag="337  .b">c</marc:controlfield>
-		<marc:controlfield tag="337  .2">rdamedia</marc:controlfield>
-		<marc:controlfield tag="338  .a">online resource</marc:controlfield>
-		<marc:controlfield tag="338  .2">rdacarrier</marc:controlfield>
-		<marc:controlfield tag="50500.a">Front Matter -- Copyright page -- Preface: A Rationale for Internationalizing Education -- Challenging Traditional Research Assumptions -- Internationalizing Critical Qualitative Case Studies -- Global Education in the 21st Century -- Internationalizing Social Studies and History Education -- Culturally Responsive Pedagogy Linking Present and Past -- Local to Global Citizenship Education -- Global Classrooms -- Global Commmunity and Social Education -- Asia Pop -- Internationalizing Teacher Education -- A US/Vietnam Case Study in Internationalizing -- A China Narrative for Internationalizing Education -- Internationalizing an Executive/Professional EdD -- Transitioning from an EdD to a PhD -- Building International Connections through Music -- Local to Global -- Latin Americanizing the Curriculum.</marc:controlfield>
-		<marc:controlfield tag="506  .a">Available to subscribing member institutions only.</marc:controlfield>
-		<marc:controlfield tag="520  .a">In Internationalizing Education: Local to Global Connections for the 21st Century , the author offers a unique perspective in addressing issues in global, international, and comparative education. Specific case studies addressing such topics as globalization, teacher education, global citizenship, study abroad, and specific regions are included in the text. Additionally, educational themes such as culturally responsive pedagogy, social justice education, critical pedagogy, curriculum and instruction, and constructivism are also addressed.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">International education.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Comparative education.</marc:controlfield>
-		<marc:controlfield tag="77608.i">Print version:</marc:controlfield>
-		<marc:controlfield tag="77608.t">Internationalizing Education: Local to Global Connections for the 21st Century</marc:controlfield>
-		<marc:controlfield tag="77608.d">Leiden, Boston : Brill | Sense, 2018,</marc:controlfield>
-		<marc:controlfield tag="77608.z">9789004364608</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:controlfield>
-		<marc:controlfield tag="8564 .z">DOI:</marc:controlfield>
-		<marc:controlfield tag="8564 .u">http://dx.doi.org/10.1163/9789004364622</marc:controlfield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="a">9789004364622</marc:subfield>
+			<marc:subfield code="q">(electronic book)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="z">9789004364608</marc:subfield>
+			<marc:subfield code="q">(print)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="024" ind1="7" ind2=" ">
+			<marc:subfield code="a">10.1163/9789004364622</marc:subfield>
+			<marc:subfield code="2">DOI</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind1=" " ind2=" ">
+			<marc:subfield code="a">NL-LeKB</marc:subfield>
+			<marc:subfield code="c">NL-LeKB</marc:subfield>
+			<marc:subfield code="e">rda</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="050" ind1=" " ind2="4">
+			<marc:subfield code="a">LC1090</marc:subfield>
+			<marc:subfield code="b">.W45 2018</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JNFR</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU020000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JNFR</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU020000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="082" ind1="0" ind2="4">
+			<marc:subfield code="a">370.116</marc:subfield>
+			<marc:subfield code="2">23</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="100" ind1="1" ind2=" ">
+			<marc:subfield code="a">White, Cameron.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="1" ind2="0">
+			<marc:subfield code="a">Internationalizing education :</marc:subfield>
+			<marc:subfield code="b">local to global connections for the 21st century /</marc:subfield>
+			<marc:subfield code="c">Cameron White.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="264" ind1=" " ind2="1">
+			<marc:subfield code="a">Leiden, Netherlands :</marc:subfield>
+			<marc:subfield code="b">Brill Publishers,</marc:subfield>
+			<marc:subfield code="c">2018.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="300" ind1=" " ind2=" ">
+			<marc:subfield code="a">1 online resource (200 pages) ;</marc:subfield>
+			<marc:subfield code="c">cm.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="336" ind1=" " ind2=" ">
+			<marc:subfield code="a">text</marc:subfield>
+			<marc:subfield code="b">txt</marc:subfield>
+			<marc:subfield code="2">rdacontent</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="337" ind1=" " ind2=" ">
+			<marc:subfield code="a">computer</marc:subfield>
+			<marc:subfield code="b">c</marc:subfield>
+			<marc:subfield code="2">rdamedia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="338" ind1=" " ind2=" ">
+			<marc:subfield code="a">online resource</marc:subfield>
+			<marc:subfield code="2">rdacarrier</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="505" ind1="0" ind2="0">
+			<marc:subfield code="a">Front Matter -- Copyright page -- Preface: A Rationale for Internationalizing Education -- Challenging Traditional Research Assumptions -- Internationalizing Critical Qualitative Case Studies -- Global Education in the 21st Century -- Internationalizing Social Studies and History Education -- Culturally Responsive Pedagogy Linking Present and Past -- Local to Global Citizenship Education -- Global Classrooms -- Global Commmunity and Social Education -- Asia Pop -- Internationalizing Teacher Education -- A US/Vietnam Case Study in Internationalizing -- A China Narrative for Internationalizing Education -- Internationalizing an Executive/Professional EdD -- Transitioning from an EdD to a PhD -- Building International Connections through Music -- Local to Global -- Latin Americanizing the Curriculum.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="506" ind1=" " ind2=" ">
+			<marc:subfield code="a">Available to subscribing member institutions only.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="520" ind1=" " ind2=" ">
+			<marc:subfield code="a">In Internationalizing Education: Local to Global Connections for the 21st Century , the author offers a unique perspective in addressing issues in global, international, and comparative education. Specific case studies addressing such topics as globalization, teacher education, global citizenship, study abroad, and specific regions are included in the text. Additionally, educational themes such as culturally responsive pedagogy, social justice education, critical pedagogy, curriculum and instruction, and constructivism are also addressed.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">International education.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Comparative education.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="776" ind1="0" ind2="8">
+			<marc:subfield code="i">Print version:</marc:subfield>
+			<marc:subfield code="t">Internationalizing Education: Local to Global Connections for the 21st Century</marc:subfield>
+			<marc:subfield code="d">Leiden, Boston : Brill | Sense, 2018,</marc:subfield>
+			<marc:subfield code="z">9789004364608</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="z">DOI:</marc:subfield>
+			<marc:subfield code="u">http://dx.doi.org/10.1163/9789004364622</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:controlfield tag="type">Bibliographic</marc:controlfield>
-		<marc:leader>03140cam a2200421Ii 4500</marc:leader>
+		<marc:controlfield tag="leader">03140cam a2200421Ii 4500</marc:controlfield>
 		<marc:controlfield tag="001">BRILL9789004367272</marc:controlfield>
 		<marc:controlfield tag="003">nllekb</marc:controlfield>
 		<marc:controlfield tag="005">20190826145055.0</marc:controlfield>
 		<marc:controlfield tag="006">m        d</marc:controlfield>
 		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
 		<marc:controlfield tag="008">180411s2018    ne      s     000 0 eng d</marc:controlfield>
-		<marc:controlfield tag="020  .a">9789004367272</marc:controlfield>
-		<marc:controlfield tag="020  .q">(electronic book)</marc:controlfield>
-		<marc:controlfield tag="020  .z">9789004367258</marc:controlfield>
-		<marc:controlfield tag="020  .q">(print)</marc:controlfield>
-		<marc:controlfield tag="0247 .a">10.1163/9789004367272</marc:controlfield>
-		<marc:controlfield tag="0247 .2">DOI</marc:controlfield>
-		<marc:controlfield tag="040  .a">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .c">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .e">rda</marc:controlfield>
-		<marc:controlfield tag="050 4.a">N350</marc:controlfield>
-		<marc:controlfield tag="050 4.b">.T43 2018</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JNA</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU040000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JNA</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU040000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="08204.a">370.1</marc:controlfield>
-		<marc:controlfield tag="08204.2">23</marc:controlfield>
-		<marc:controlfield tag="1001 .a">Thapalyal, Ranjana.</marc:controlfield>
-		<marc:controlfield tag="24510.a">Education as mutual translation :</marc:controlfield>
-		<marc:controlfield tag="24510.b">a Yoruba and Vedantic interface for pedagogy in the creative arts /</marc:controlfield>
-		<marc:controlfield tag="24510.c">Ranjana Thapalyal.</marc:controlfield>
-		<marc:controlfield tag="264 1.a">Leiden :</marc:controlfield>
-		<marc:controlfield tag="264 1.b">Brill Sense,</marc:controlfield>
-		<marc:controlfield tag="264 1.c">2018.</marc:controlfield>
-		<marc:controlfield tag="300  .a">1 online resource (267 pages)</marc:controlfield>
-		<marc:controlfield tag="336  .a">text</marc:controlfield>
-		<marc:controlfield tag="336  .b">txt</marc:controlfield>
-		<marc:controlfield tag="336  .2">rdacontent</marc:controlfield>
-		<marc:controlfield tag="337  .a">computer</marc:controlfield>
-		<marc:controlfield tag="337  .b">c</marc:controlfield>
-		<marc:controlfield tag="337  .2">rdamedia</marc:controlfield>
-		<marc:controlfield tag="338  .a">online resource</marc:controlfield>
-		<marc:controlfield tag="338  .2">rdacarrier</marc:controlfield>
-		<marc:controlfield tag="50500.a">Front Matter -- Copyright page -- Dedication -- Acknowledgements -- Glossary -- List of Figures and Tables -- Time and Translation -- Education as Mutual Translation -- Vedanta, Self and Education -- Yoruba, Self and Education -- Vedantic and Yoruba Thought in Relation to Barnett’s Will to Learn and Freire’s Critical Consciousness -- Ethos, Structure and Methodology of the 4Minds Research Project -- Case Study Narratives -- Reflection on the Yoruba/Vedanta Course and 4Minds in Relation to Main Sources -- Analysis of the Research Project and card as Pedagogic Tool -- Conclusions -- Back Matter -- References -- Key Texts and Tenets of the Schools of Vedanta and Their Sources -- Index.</marc:controlfield>
-		<marc:controlfield tag="506  .a">Available to subscribing member institutions only.</marc:controlfield>
-		<marc:controlfield tag="520  .a">In Education as Mutual Translation , the author recounts recent research conducted at a UK Art School, then examines and applies Hindu Vedantist (Ancient Indian) and Yoruba (West African) philosophical concepts of self and mutuality with others to an environment that expects high levels of individuality. Yoruba and Vedantic analyses of mind are shown to have startling resonance with each other, with Paulo Freire’s critical consciousness, and Ronald Barnett’s student being. Placing these sources in theoretical dialogue with each other the author proposes “critical autobiographic reflection” as a tool for locating cultural, political and ontological self; she suggests that a more resilient original voice emerges from awareness of society and community than from individualism, and that genuine pedagogic exchange changes student, tutor, and the work of both.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Art</marc:controlfield>
-		<marc:controlfield tag="650 0.x">Study and teaching.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Individuality.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Identity (Psychology) in art.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Identity (Philosophical concept) in art.</marc:controlfield>
-		<marc:controlfield tag="77608.i">Print version:</marc:controlfield>
-		<marc:controlfield tag="77608.t">Education as Mutual Translation: A Yoruba and Vedantic Interface for Pedagogy in the Creative Arts</marc:controlfield>
-		<marc:controlfield tag="77608.d">Leiden, Boston : Brill | Sense, 2018,</marc:controlfield>
-		<marc:controlfield tag="77608.z">9789004367258</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:controlfield>
-		<marc:controlfield tag="8564 .z">DOI:</marc:controlfield>
-		<marc:controlfield tag="8564 .u">http://dx.doi.org/10.1163/9789004367272</marc:controlfield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="a">9789004367272</marc:subfield>
+			<marc:subfield code="q">(electronic book)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="z">9789004367258</marc:subfield>
+			<marc:subfield code="q">(print)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="024" ind1="7" ind2=" ">
+			<marc:subfield code="a">10.1163/9789004367272</marc:subfield>
+			<marc:subfield code="2">DOI</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind1=" " ind2=" ">
+			<marc:subfield code="a">NL-LeKB</marc:subfield>
+			<marc:subfield code="c">NL-LeKB</marc:subfield>
+			<marc:subfield code="e">rda</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="050" ind1=" " ind2="4">
+			<marc:subfield code="a">N350</marc:subfield>
+			<marc:subfield code="b">.T43 2018</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JNA</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU040000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JNA</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU040000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="082" ind1="0" ind2="4">
+			<marc:subfield code="a">370.1</marc:subfield>
+			<marc:subfield code="2">23</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="100" ind1="1" ind2=" ">
+			<marc:subfield code="a">Thapalyal, Ranjana.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="1" ind2="0">
+			<marc:subfield code="a">Education as mutual translation :</marc:subfield>
+			<marc:subfield code="b">a Yoruba and Vedantic interface for pedagogy in the creative arts /</marc:subfield>
+			<marc:subfield code="c">Ranjana Thapalyal.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="264" ind1=" " ind2="1">
+			<marc:subfield code="a">Leiden :</marc:subfield>
+			<marc:subfield code="b">Brill Sense,</marc:subfield>
+			<marc:subfield code="c">2018.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="300" ind1=" " ind2=" ">
+			<marc:subfield code="a">1 online resource (267 pages)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="336" ind1=" " ind2=" ">
+			<marc:subfield code="a">text</marc:subfield>
+			<marc:subfield code="b">txt</marc:subfield>
+			<marc:subfield code="2">rdacontent</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="337" ind1=" " ind2=" ">
+			<marc:subfield code="a">computer</marc:subfield>
+			<marc:subfield code="b">c</marc:subfield>
+			<marc:subfield code="2">rdamedia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="338" ind1=" " ind2=" ">
+			<marc:subfield code="a">online resource</marc:subfield>
+			<marc:subfield code="2">rdacarrier</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="505" ind1="0" ind2="0">
+			<marc:subfield code="a">Front Matter -- Copyright page -- Dedication -- Acknowledgements -- Glossary -- List of Figures and Tables -- Time and Translation -- Education as Mutual Translation -- Vedanta, Self and Education -- Yoruba, Self and Education -- Vedantic and Yoruba Thought in Relation to Barnett’s Will to Learn and Freire’s Critical Consciousness -- Ethos, Structure and Methodology of the 4Minds Research Project -- Case Study Narratives -- Reflection on the Yoruba/Vedanta Course and 4Minds in Relation to Main Sources -- Analysis of the Research Project and card as Pedagogic Tool -- Conclusions -- Back Matter -- References -- Key Texts and Tenets of the Schools of Vedanta and Their Sources -- Index.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="506" ind1=" " ind2=" ">
+			<marc:subfield code="a">Available to subscribing member institutions only.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="520" ind1=" " ind2=" ">
+			<marc:subfield code="a">In Education as Mutual Translation , the author recounts recent research conducted at a UK Art School, then examines and applies Hindu Vedantist (Ancient Indian) and Yoruba (West African) philosophical concepts of self and mutuality with others to an environment that expects high levels of individuality. Yoruba and Vedantic analyses of mind are shown to have startling resonance with each other, with Paulo Freire’s critical consciousness, and Ronald Barnett’s student being. Placing these sources in theoretical dialogue with each other the author proposes “critical autobiographic reflection” as a tool for locating cultural, political and ontological self; she suggests that a more resilient original voice emerges from awareness of society and community than from individualism, and that genuine pedagogic exchange changes student, tutor, and the work of both.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Art</marc:subfield>
+			<marc:subfield code="x">Study and teaching.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Individuality.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Identity (Psychology) in art.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Identity (Philosophical concept) in art.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="776" ind1="0" ind2="8">
+			<marc:subfield code="i">Print version:</marc:subfield>
+			<marc:subfield code="t">Education as Mutual Translation: A Yoruba and Vedantic Interface for Pedagogy in the Creative Arts</marc:subfield>
+			<marc:subfield code="d">Leiden, Boston : Brill | Sense, 2018,</marc:subfield>
+			<marc:subfield code="z">9789004367258</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="z">DOI:</marc:subfield>
+			<marc:subfield code="u">http://dx.doi.org/10.1163/9789004367272</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:controlfield tag="type">Bibliographic</marc:controlfield>
-		<marc:leader>05319cam a2200481Ii 4500</marc:leader>
+		<marc:controlfield tag="leader">05319cam a2200481Ii 4500</marc:controlfield>
 		<marc:controlfield tag="001">BRILL9789004369603</marc:controlfield>
 		<marc:controlfield tag="003">nllekb</marc:controlfield>
 		<marc:controlfield tag="005">20190826145055.0</marc:controlfield>
 		<marc:controlfield tag="006">m        d</marc:controlfield>
 		<marc:controlfield tag="007">cr un    uuuua</marc:controlfield>
 		<marc:controlfield tag="008">180521s2018    ne      sb    000 0 eng d</marc:controlfield>
-		<marc:controlfield tag="010  .a">2018024881</marc:controlfield>
-		<marc:controlfield tag="020  .a">9789004369603</marc:controlfield>
-		<marc:controlfield tag="020  .q">(electronic book)</marc:controlfield>
-		<marc:controlfield tag="020  .z">9789004369597</marc:controlfield>
-		<marc:controlfield tag="020  .q">(print)</marc:controlfield>
-		<marc:controlfield tag="0247 .a">10.1163/9789004369603</marc:controlfield>
-		<marc:controlfield tag="0247 .2">DOI</marc:controlfield>
-		<marc:controlfield tag="035  .a">2018024881</marc:controlfield>
-		<marc:controlfield tag="035  .6">ORIG</marc:controlfield>
-		<marc:controlfield tag="040  .a">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .c">NL-LeKB</marc:controlfield>
-		<marc:controlfield tag="040  .e">rda</marc:controlfield>
-		<marc:controlfield tag="050 4.a">NX280</marc:controlfield>
-		<marc:controlfield tag="072 7.a">JN</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bicssc</marc:controlfield>
-		<marc:controlfield tag="072 7.a">EDU000000</marc:controlfield>
-		<marc:controlfield tag="072 7.2">bisacsh</marc:controlfield>
-		<marc:controlfield tag="08204.a">700.71</marc:controlfield>
-		<marc:controlfield tag="08204.2">23</marc:controlfield>
-		<marc:controlfield tag="24500.a">Creativities in arts education, research and practice :</marc:controlfield>
-		<marc:controlfield tag="24500.b">international perspectives for the future of learning and teaching /</marc:controlfield>
-		<marc:controlfield tag="24500.c">edited by Leon R. de Bruin, Pamela Burnard and Susan Davis.</marc:controlfield>
-		<marc:controlfield tag="264 1.a">Leiden ;</marc:controlfield>
-		<marc:controlfield tag="264 1.a">Boston :</marc:controlfield>
-		<marc:controlfield tag="264 1.b">Brill Sense,</marc:controlfield>
-		<marc:controlfield tag="264 1.c">[2018]</marc:controlfield>
-		<marc:controlfield tag="300  .a">1 online resource.</marc:controlfield>
-		<marc:controlfield tag="336  .a">text</marc:controlfield>
-		<marc:controlfield tag="336  .b">txt</marc:controlfield>
-		<marc:controlfield tag="336  .2">rdacontent</marc:controlfield>
-		<marc:controlfield tag="337  .a">computer</marc:controlfield>
-		<marc:controlfield tag="337  .b">c</marc:controlfield>
-		<marc:controlfield tag="337  .2">rdamedia</marc:controlfield>
-		<marc:controlfield tag="338  .a">online resource</marc:controlfield>
-		<marc:controlfield tag="338  .2">rdacarrier</marc:controlfield>
-		<marc:controlfield tag="4900 .a">Critical issues in the future of learning and teaching ;</marc:controlfield>
-		<marc:controlfield tag="4900 .v">v. 15</marc:controlfield>
-		<marc:controlfield tag="504  .a">Includes bibliographical references.</marc:controlfield>
-		<marc:controlfield tag="50500.t">Front Matter --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Copyright page --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Contents --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Acknowledgements --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Connecting Creativities in the Arts /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Leon R. de Bruin , Pamela Burnard and Susan Davis --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Creativities in Arts Practice and Arts-Based Research --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Exploring Particular Creativities in the Arts Through the Voices of Australian Visual Arts Educators /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Mark Selkrig and Christine Bottrell --</marc:controlfield>
-		<marc:controlfield tag="50500.t">In-Between Practice and Art Worlds /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Megan McPherson --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Looking for Patterns in the Dust /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Amy Mortimer --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Bunya Pine, Goanna and Star Clusters /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Robyn Heckenberg --</marc:controlfield>
-		<marc:controlfield tag="50500.t">The Stories within /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Sarah Jane Moore --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Good Question /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Susan Wright --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Creativities in Music, Music Teacher Education and the Music Industry --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Developing Creative Ecologies in Music Education /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Leon R. de Bruin --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Exploring Links Between Children’s Creativity Development and A World Music Education Program /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Shari Lindblom --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Music, Mathematics and Creative Processes /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Fiona King --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Assessing Creativity in English School Music Education /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Martin Fautley --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Training Pre-Service Teachers to be Creative /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Sharon Lierse --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Digital Audio Ecofeminism (DA’EF) /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Elizabeth Dobson --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Creativities in Drama and Dance and Embodied Learning --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Dramatic Learning and Indigenous Creativities: A Kinship Approach /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Susan Davis --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Creatively Analysing Dance A/r/tographically /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Peter J. Cook --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Creative Ideologies /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Alison O’Grady --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Connecting Arts Activism, Diverse Creativities and Embodiment through Practice as Research /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Pamela Burnard , Tatjana Dragovic , Peter J. Cook and Susanne Jasilek --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Propositions and Provocations for Advancing Learning and Teaching Through Creativities and the Arts /</marc:controlfield>
-		<marc:controlfield tag="50500.r">Leon R. de Bruin , Pamela Burnard and Susan Davis --</marc:controlfield>
-		<marc:controlfield tag="50500.t">Back Matter --</marc:controlfield>
-		<marc:controlfield tag="50500.t">List of Contributors.</marc:controlfield>
-		<marc:controlfield tag="506  .a">Available to subscribing member institutions only.</marc:controlfield>
-		<marc:controlfield tag="520  .a">In Creativities in Arts Education, Research and Practice: International Perspectives for the Future of Learning and Teaching , Leon de Bruin, Pamela Burnard and Susan Davis provide new thinking, ideas and practices concerned with philosophically, pedagogically and actively developing arts learning and teaching. Interrogating successes and challenges for creativity education locally/globally/glocally, and using illustrative cases and examples drawn from education, practice and research, they explore unique local practices, agendas, glocalised perspectives and ways arts learning develops diverse creativities in order to produce new approaches and creative ecologies through inter- and cross-disciplinary teaching practices interconnecting beyond arts domains. This book highlights innovative approaches and perspectives to activating and promoting diverse creativities as new forms of authorship and analytic approaches within arts practice and education, along with the production of adaptable, sustainable pedagogies that promote and produce diverse creativities differently. This book will help educators, artists, and researchers understand and fully utilise ways they can transform their thinking and practice and keep their learning and teaching on the move. Contributors are: Christine Bottrell, Pamela Burnard, Peter Cook. Susan Davis, Elizabeth Dobson, Leon R. de Bruin, Tatjana Dragovic, Martin Fautley, Robyn Heckenberg, Susanne Jasilek, Fiona King, Sharon Lierse, Shari Lindblom, Megan McPherson, Sarah Jane Moore, Amy Mortimer, Alison O&apos;Grady, Mark Selkrig, Susan Wright.</marc:controlfield>
-		<marc:controlfield tag="588  .a">Description based on print version record and CIP data provided by publisher; resource not viewed.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Arts</marc:controlfield>
-		<marc:controlfield tag="650 0.x">Study and teaching.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Arts</marc:controlfield>
-		<marc:controlfield tag="650 0.x">Study and teaching</marc:controlfield>
-		<marc:controlfield tag="650 0.x">Research.</marc:controlfield>
-		<marc:controlfield tag="650 0.a">Creative thinking.</marc:controlfield>
-		<marc:controlfield tag="7001 .a">De Bruin, Leon R.</marc:controlfield>
-		<marc:controlfield tag="7001 .a">Burnard, Pamela.</marc:controlfield>
-		<marc:controlfield tag="7001 .a">Davis, Susan,</marc:controlfield>
-		<marc:controlfield tag="7001 .d">1961-</marc:controlfield>
-		<marc:controlfield tag="77608.i">Print version:</marc:controlfield>
-		<marc:controlfield tag="77608.t">Creativities in arts education, research and practice</marc:controlfield>
-		<marc:controlfield tag="77608.d">Leiden ; Boston : Brill Sense, [2018]</marc:controlfield>
-		<marc:controlfield tag="77608.z">9789004369597</marc:controlfield>
-		<marc:controlfield tag="77608.w">(DLC)  2018010095</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Critical Issues in the Future of Learning and Teaching</marc:controlfield>
-		<marc:controlfield tag="830 0.v">15.</marc:controlfield>
-		<marc:controlfield tag="830 0.a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:controlfield>
-		<marc:controlfield tag="8564 .z">DOI:</marc:controlfield>
-		<marc:controlfield tag="8564 .u">http://dx.doi.org/10.1163/9789004369603</marc:controlfield>
+		<marc:datafield tag="010" ind1=" " ind2=" ">
+			<marc:subfield code="a">2018024881</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="a">9789004369603</marc:subfield>
+			<marc:subfield code="q">(electronic book)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="020" ind1=" " ind2=" ">
+			<marc:subfield code="z">9789004369597</marc:subfield>
+			<marc:subfield code="q">(print)</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="024" ind1="7" ind2=" ">
+			<marc:subfield code="a">10.1163/9789004369603</marc:subfield>
+			<marc:subfield code="2">DOI</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">2018024881</marc:subfield>
+			<marc:subfield code="6">ORIG</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind1=" " ind2=" ">
+			<marc:subfield code="a">NL-LeKB</marc:subfield>
+			<marc:subfield code="c">NL-LeKB</marc:subfield>
+			<marc:subfield code="e">rda</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="050" ind1=" " ind2="4">
+			<marc:subfield code="a">NX280</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">JN</marc:subfield>
+			<marc:subfield code="2">bicssc</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="072" ind1=" " ind2="7">
+			<marc:subfield code="a">EDU000000</marc:subfield>
+			<marc:subfield code="2">bisacsh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="082" ind1="0" ind2="4">
+			<marc:subfield code="a">700.71</marc:subfield>
+			<marc:subfield code="2">23</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="0" ind2="0">
+			<marc:subfield code="a">Creativities in arts education, research and practice :</marc:subfield>
+			<marc:subfield code="b">international perspectives for the future of learning and teaching /</marc:subfield>
+			<marc:subfield code="c">edited by Leon R. de Bruin, Pamela Burnard and Susan Davis.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="264" ind1=" " ind2="1">
+			<marc:subfield code="a">Leiden ;</marc:subfield>
+			<marc:subfield code="a">Boston :</marc:subfield>
+			<marc:subfield code="b">Brill Sense,</marc:subfield>
+			<marc:subfield code="c">[2018]</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="300" ind1=" " ind2=" ">
+			<marc:subfield code="a">1 online resource.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="336" ind1=" " ind2=" ">
+			<marc:subfield code="a">text</marc:subfield>
+			<marc:subfield code="b">txt</marc:subfield>
+			<marc:subfield code="2">rdacontent</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="337" ind1=" " ind2=" ">
+			<marc:subfield code="a">computer</marc:subfield>
+			<marc:subfield code="b">c</marc:subfield>
+			<marc:subfield code="2">rdamedia</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="338" ind1=" " ind2=" ">
+			<marc:subfield code="a">online resource</marc:subfield>
+			<marc:subfield code="2">rdacarrier</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="490" ind1="0" ind2=" ">
+			<marc:subfield code="a">Critical issues in the future of learning and teaching ;</marc:subfield>
+			<marc:subfield code="v">v. 15</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="504" ind1=" " ind2=" ">
+			<marc:subfield code="a">Includes bibliographical references.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="505" ind1="0" ind2="0">
+			<marc:subfield code="t">Front Matter --</marc:subfield>
+			<marc:subfield code="t">Copyright page --</marc:subfield>
+			<marc:subfield code="t">Contents --</marc:subfield>
+			<marc:subfield code="t">Acknowledgements --</marc:subfield>
+			<marc:subfield code="t">Connecting Creativities in the Arts /</marc:subfield>
+			<marc:subfield code="r">Leon R. de Bruin , Pamela Burnard and Susan Davis --</marc:subfield>
+			<marc:subfield code="t">Creativities in Arts Practice and Arts-Based Research --</marc:subfield>
+			<marc:subfield code="t">Exploring Particular Creativities in the Arts Through the Voices of Australian Visual Arts Educators /</marc:subfield>
+			<marc:subfield code="r">Mark Selkrig and Christine Bottrell --</marc:subfield>
+			<marc:subfield code="t">In-Between Practice and Art Worlds /</marc:subfield>
+			<marc:subfield code="r">Megan McPherson --</marc:subfield>
+			<marc:subfield code="t">Looking for Patterns in the Dust /</marc:subfield>
+			<marc:subfield code="r">Amy Mortimer --</marc:subfield>
+			<marc:subfield code="t">Bunya Pine, Goanna and Star Clusters /</marc:subfield>
+			<marc:subfield code="r">Robyn Heckenberg --</marc:subfield>
+			<marc:subfield code="t">The Stories within /</marc:subfield>
+			<marc:subfield code="r">Sarah Jane Moore --</marc:subfield>
+			<marc:subfield code="t">Good Question /</marc:subfield>
+			<marc:subfield code="r">Susan Wright --</marc:subfield>
+			<marc:subfield code="t">Creativities in Music, Music Teacher Education and the Music Industry --</marc:subfield>
+			<marc:subfield code="t">Developing Creative Ecologies in Music Education /</marc:subfield>
+			<marc:subfield code="r">Leon R. de Bruin --</marc:subfield>
+			<marc:subfield code="t">Exploring Links Between Children’s Creativity Development and A World Music Education Program /</marc:subfield>
+			<marc:subfield code="r">Shari Lindblom --</marc:subfield>
+			<marc:subfield code="t">Music, Mathematics and Creative Processes /</marc:subfield>
+			<marc:subfield code="r">Fiona King --</marc:subfield>
+			<marc:subfield code="t">Assessing Creativity in English School Music Education /</marc:subfield>
+			<marc:subfield code="r">Martin Fautley --</marc:subfield>
+			<marc:subfield code="t">Training Pre-Service Teachers to be Creative /</marc:subfield>
+			<marc:subfield code="r">Sharon Lierse --</marc:subfield>
+			<marc:subfield code="t">Digital Audio Ecofeminism (DA’EF) /</marc:subfield>
+			<marc:subfield code="r">Elizabeth Dobson --</marc:subfield>
+			<marc:subfield code="t">Creativities in Drama and Dance and Embodied Learning --</marc:subfield>
+			<marc:subfield code="t">Dramatic Learning and Indigenous Creativities: A Kinship Approach /</marc:subfield>
+			<marc:subfield code="r">Susan Davis --</marc:subfield>
+			<marc:subfield code="t">Creatively Analysing Dance A/r/tographically /</marc:subfield>
+			<marc:subfield code="r">Peter J. Cook --</marc:subfield>
+			<marc:subfield code="t">Creative Ideologies /</marc:subfield>
+			<marc:subfield code="r">Alison O’Grady --</marc:subfield>
+			<marc:subfield code="t">Connecting Arts Activism, Diverse Creativities and Embodiment through Practice as Research /</marc:subfield>
+			<marc:subfield code="r">Pamela Burnard , Tatjana Dragovic , Peter J. Cook and Susanne Jasilek --</marc:subfield>
+			<marc:subfield code="t">Propositions and Provocations for Advancing Learning and Teaching Through Creativities and the Arts /</marc:subfield>
+			<marc:subfield code="r">Leon R. de Bruin , Pamela Burnard and Susan Davis --</marc:subfield>
+			<marc:subfield code="t">Back Matter --</marc:subfield>
+			<marc:subfield code="t">List of Contributors.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="506" ind1=" " ind2=" ">
+			<marc:subfield code="a">Available to subscribing member institutions only.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="520" ind1=" " ind2=" ">
+			<marc:subfield code="a">In Creativities in Arts Education, Research and Practice: International Perspectives for the Future of Learning and Teaching , Leon de Bruin, Pamela Burnard and Susan Davis provide new thinking, ideas and practices concerned with philosophically, pedagogically and actively developing arts learning and teaching. Interrogating successes and challenges for creativity education locally/globally/glocally, and using illustrative cases and examples drawn from education, practice and research, they explore unique local practices, agendas, glocalised perspectives and ways arts learning develops diverse creativities in order to produce new approaches and creative ecologies through inter- and cross-disciplinary teaching practices interconnecting beyond arts domains. This book highlights innovative approaches and perspectives to activating and promoting diverse creativities as new forms of authorship and analytic approaches within arts practice and education, along with the production of adaptable, sustainable pedagogies that promote and produce diverse creativities differently. This book will help educators, artists, and researchers understand and fully utilise ways they can transform their thinking and practice and keep their learning and teaching on the move. Contributors are: Christine Bottrell, Pamela Burnard, Peter Cook. Susan Davis, Elizabeth Dobson, Leon R. de Bruin, Tatjana Dragovic, Martin Fautley, Robyn Heckenberg, Susanne Jasilek, Fiona King, Sharon Lierse, Shari Lindblom, Megan McPherson, Sarah Jane Moore, Amy Mortimer, Alison O&apos;Grady, Mark Selkrig, Susan Wright.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="588" ind1=" " ind2=" ">
+			<marc:subfield code="a">Description based on print version record and CIP data provided by publisher; resource not viewed.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Arts</marc:subfield>
+			<marc:subfield code="x">Study and teaching.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Arts</marc:subfield>
+			<marc:subfield code="x">Study and teaching</marc:subfield>
+			<marc:subfield code="x">Research.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="650" ind1=" " ind2="0">
+			<marc:subfield code="a">Creative thinking.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="700" ind1="1" ind2=" ">
+			<marc:subfield code="a">De Bruin, Leon R.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="700" ind1="1" ind2=" ">
+			<marc:subfield code="a">Burnard, Pamela.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="700" ind1="1" ind2=" ">
+			<marc:subfield code="a">Davis, Susan,</marc:subfield>
+			<marc:subfield code="d">1961-</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="776" ind1="0" ind2="8">
+			<marc:subfield code="i">Print version:</marc:subfield>
+			<marc:subfield code="t">Creativities in arts education, research and practice</marc:subfield>
+			<marc:subfield code="d">Leiden ; Boston : Brill Sense, [2018]</marc:subfield>
+			<marc:subfield code="z">9789004369597</marc:subfield>
+			<marc:subfield code="w">(DLC)  2018010095</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Critical Issues in the Future of Learning and Teaching</marc:subfield>
+			<marc:subfield code="v">15.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="830" ind1=" " ind2="0">
+			<marc:subfield code="a">Educational Research E-Books Online, Collection 2018, ISBN: 9789004375666.</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="z">DOI:</marc:subfield>
+			<marc:subfield code="u">http://dx.doi.org/10.1163/9789004369603</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 </marc:collection>
