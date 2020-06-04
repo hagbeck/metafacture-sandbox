@@ -6,6 +6,7 @@
 
     <meta> <!-- Metadata -->
         <name>Enrich MARC-XML with additional collection marker</name>
+        <version>1.1</version>
     </meta>
 
     <macros> <!-- Macro definitions --> </macros>
