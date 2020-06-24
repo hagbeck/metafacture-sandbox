@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
+		<marc:controlfield tag="001">1766562</marc:controlfield>
+        <marc:datafield tag="856" ind1="4" ind2=" ">
+            <marc:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</marc:subfield>
+            <marc:subfield code="x">Resolving-System</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1="4" ind2=" ">
+            <marc:subfield code="u">http://bla.org/blub</marc:subfield>
+            <marc:subfield code="x">Resolving-System</marc:subfield>
+        </marc:datafield>
+	</marc:record>
+
+	<marc:record>
+		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
+		<marc:controlfield tag="001">1766565</marc:controlfield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="u">http://blub.org/local</marc:subfield>
+			<marc:subfield code="z">Resolving-System</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+
+</marc:collection>

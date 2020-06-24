@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mx:collection xmlns:mx="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+
+
+<mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" id="ID1766562">
+        <mx:leader>00525nam a2200024 c 4500</mx:leader>
+        <mx:controlfield tag="001">1766562</mx:controlfield>
+        <mx:controlfield tag="007">|| ||||||||||||||||||||</mx:controlfield>
+        <mx:controlfield tag="008">||||||nuuuuuuuu|||||| | |||||||||||und||</mx:controlfield>
+        <mx:datafield tag="035" ind1=" " ind2=" ">
+            <mx:subfield code="a">(UNION_SEAL)TT050427953</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="245" ind1="0" ind2="0">
+            <mx:subfield code="a">Multivariate Network Visualization</mx:subfield>
+            <mx:subfield code="b">Dagstuhl Seminar #13201, Dagstuhl Castle, Germany, May 12-17, 2013, Revised Discussions</mx:subfield>
+            <mx:subfield code="c">edited by Andreas Kerren, Helen C. Purchase, Matthew O. Ward</mx:subfield>
+            <mx:subfield code="h">Elektronische Ressource</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="856" ind1="4" ind2=" ">
+            <mx:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</mx:subfield>
+            <mx:subfield code="x">Resolving-System</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="856" ind1="4" ind2=" ">
+            <mx:subfield code="u">http://bla.org/blub</mx:subfield>
+            <mx:subfield code="x">Resolving-System</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="980" ind1="1" ind2=" ">
+            <mx:subfield code="e">HBZ</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="997" ind1=" " ind2=" ">
+            <mx:subfield code="a">20200508</mx:subfield>
+        </mx:datafield>
+    </mx:record>
+
+<mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" id="ID1766562">
+        <mx:leader>00525nam a2200024 c 4500</mx:leader>
+        <mx:controlfield tag="001">1766565</mx:controlfield>
+        <mx:controlfield tag="007">|| ||||||||||||||||||||</mx:controlfield>
+        <mx:controlfield tag="008">||||||nuuuuuuuu|||||| | |||||||||||und||</mx:controlfield>
+        <mx:datafield tag="035" ind1=" " ind2=" ">
+            <mx:subfield code="a">(UNION_SEAL)TT050427953</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="245" ind1="0" ind2="0">
+            <mx:subfield code="a">Multivariate Network Visualization</mx:subfield>
+            <mx:subfield code="b">Dagstuhl Seminar #13201, Dagstuhl Castle, Germany, May 12-17, 2013, Revised Discussions</mx:subfield>
+            <mx:subfield code="c">edited by Andreas Kerren, Helen C. Purchase, Matthew O. Ward</mx:subfield>
+            <mx:subfield code="h">Elektronische Ressource</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="856" ind1="4" ind2=" ">
+            <mx:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</mx:subfield>
+            <mx:subfield code="x">Resolving-System</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="856" ind1="4" ind2=" ">
+            <mx:subfield code="u">http://bla.org/blub</mx:subfield>
+            <mx:subfield code="x">Resolving-System</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="980" ind1="1" ind2=" ">
+            <mx:subfield code="e">HBZ</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="997" ind1=" " ind2=" ">
+            <mx:subfield code="a">20200508</mx:subfield>
+        </mx:datafield>
+        <mx:datafield tag="998" ind1="4" ind2=" ">
+            <mx:subfield code="u">http://blub.org/local</mx:subfield>
+            <mx:subfield code="z">Resolving-System</mx:subfield>
+        </mx:datafield>
+    </mx:record>
+
+
+</mx:collection>

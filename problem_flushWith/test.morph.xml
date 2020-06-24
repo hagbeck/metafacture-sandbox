@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamorph xmlns="http://www.culturegraph.org/metamorph"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.culturegraph.org/metamorph metamorph.xsd"
+           version="1">
+
+    <meta> <!-- Metadata -->
+        <name>Postprocessing Sunrise-MARCXML</name>
+		<!-- <version>1.1</version> -->
+    </meta>
+
+    <macros> <!-- Macro definitions --> </macros>
+
+    <rules> <!-- Transformation rules-->
+
+        <data name="leader" source="leader"/>
+        <data name="001" source="001"/>
+
+		<entity name="8564 " flushWith="record">
+			<if>
+                <any>
+					<data source="9984 .u" />
+					<data source="9984 .z" />
+                </any>
+            </if>
+			<data source="9984 .u" name="u" />
+			<data source="9984 .z" name="z" />
+		</entity>
+
+		<entity name="8564 " flushWith="856??" reset="true">
+			<if>
+                <none>
+					<data source="9984 .9" />
+                </none>
+            </if>
+			<data source="8564 .u" name="u" />
+			<data source="8564 .x" name="x" />
+		</entity>
+
+		<!--
+           >>> COPY ALL SOURCES TO TARGET <<<
+        -->
+
+		<!--<data source="_else" />-->
+
+    </rules>
+
+    <maps>
+    </maps>
+
+</metamorph>
