@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mx:collection xmlns:mx="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 
-
-<mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" id="ID1766562">
+<!---->
+    <mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" id="ID1766562">
         <mx:leader>00525nam a2200024 c 4500</mx:leader>
         <mx:controlfield tag="001">1766562</mx:controlfield>
         <mx:controlfield tag="007">|| ||||||||||||||||||||</mx:controlfield>
@@ -32,6 +32,8 @@
         </mx:datafield>
     </mx:record>
 
+
+<!---->
 <mx:record xmlns:mx="http://www.loc.gov/MARC21/slim" id="ID1766562">
         <mx:leader>00525nam a2200024 c 4500</mx:leader>
         <mx:controlfield tag="001">1766565</mx:controlfield>
@@ -63,6 +65,7 @@
         <mx:datafield tag="998" ind1="4" ind2=" ">
             <mx:subfield code="u">http://blub.org/local</mx:subfield>
             <mx:subfield code="z">Resolving-System</mx:subfield>
+            <mx:subfield code="9">LOCAL</mx:subfield>
         </mx:datafield>
     </mx:record>
 

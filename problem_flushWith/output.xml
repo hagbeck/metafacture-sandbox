@@ -3,14 +3,31 @@
 	<marc:record>
 		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
 		<marc:controlfield tag="001">1766562</marc:controlfield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="u">http://bla.org/blub</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+		</marc:datafield>
 	</marc:record>
 
 	<marc:record>
 		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
 		<marc:controlfield tag="001">1766565</marc:controlfield>
 		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="u">http://bla.org/blub</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
 			<marc:subfield code="u">http://blub.org/local</marc:subfield>
 			<marc:subfield code="z">Resolving-System</marc:subfield>
+			<marc:subfield code="9">LOCAL</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 

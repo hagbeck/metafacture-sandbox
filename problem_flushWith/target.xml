@@ -19,6 +19,7 @@
 		<marc:datafield tag="856" ind1="4" ind2=" ">
 			<marc:subfield code="u">http://blub.org/local</marc:subfield>
 			<marc:subfield code="z">Resolving-System</marc:subfield>
+			<marc:subfield code="9">LOCAL</marc:subfield>
 		</marc:datafield>
 	</marc:record>
 

@@ -16,25 +16,28 @@
         <data name="leader" source="leader"/>
         <data name="001" source="001"/>
 
-		<entity name="8564 " flushWith="record">
+        <!-- ok for a record without "9984 .9"; e.g. 001=1766562 -->
+        <!-- not ok, if the record contains "9984 .9"; "8564 .?" is written to output; e.g. 001=1766565 -->
+		<entity name="8564 " flushWith="8564 " reset="true">
 			<if>
-                <any>
-					<data source="9984 .u" />
-					<data source="9984 .z" />
-                </any>
-            </if>
-			<data source="9984 .u" name="u" />
-			<data source="9984 .z" name="z" />
-		</entity>
-
-		<entity name="8564 " flushWith="856??" reset="true">
-			<if>
-                <none>
+                <none flushWith="8564 " reset="true">
 					<data source="9984 .9" />
                 </none>
             </if>
 			<data source="8564 .u" name="u" />
 			<data source="8564 .x" name="x" />
+		</entity>
+
+        <!-- ok in all cases of input -->
+		<entity name="8564 " flushWith="record">
+			<if>
+                <all>
+					<data source="9984 .9" />
+                </all>
+            </if>
+			<data source="9984 .u" name="u" />
+			<data source="9984 .z" name="z" />
+			<data source="9984 .9" name="9" />
 		</entity>
 
 		<!--
