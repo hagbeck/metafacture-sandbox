@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<marc:record>
+		<marc:controlfield tag="type"></marc:controlfield>
+		<marc:controlfield tag="leader">00564nam a2200024 c 4500</marc:controlfield>
+		<marc:controlfield tag="001">1687931</marc:controlfield>
+		<marc:controlfield tag="007">|| ||||||||||||||||||||</marc:controlfield>
+		<marc:controlfield tag="008">||||||nuuuuuuuu|||||| | |||||||||||und||</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(UNION_SEAL)HT019953476</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="0" ind2="0">
+			<marc:subfield code="a">Design and analysis of an asymmetric mutation operator</marc:subfield>
+			<marc:subfield code="c">Thomas Jansen and Dirk Sudholt</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+			<marc:subfield code="z">Freie Internetressource</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2="0">
+			<marc:subfield code="u">https://hdl.handle.net/2003/22116</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+			<marc:subfield code="3">Volltext</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2="0">
+			<marc:subfield code="u">https://doi.org/10.17877/DE290R-14123</marc:subfield>
+			<marc:subfield code="x">Resolving-System</marc:subfield>
+			<marc:subfield code="3">Volltext</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="980" ind1="1" ind2=" ">
+			<marc:subfield code="e">HBZ</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="997" ind1=" " ind2=" ">
+			<marc:subfield code="a">20190130</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="998" ind1="4" ind2=" ">
+			<marc:subfield code="z">Freie Internetressource</marc:subfield>
+		</marc:datafield>
+	</marc:record>
+
+</marc:collection>

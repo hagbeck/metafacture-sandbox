@@ -6,45 +6,56 @@
 
     <meta> <!-- Metadata -->
         <name>Postprocessing Sunrise-MARCXML</name>
-		<!-- <version>1.1</version> -->
+        <version>1.1</version>
     </meta>
 
     <macros> <!-- Macro definitions --> </macros>
 
     <rules> <!-- Transformation rules-->
 
-        <data name="leader" source="leader"/>
         <data name="001" source="001"/>
 
         <!-- ok for a record without "9984 .9"; e.g. 001=1766562 -->
-        <!-- not ok, if the record contains "9984 .9"; "8564 .?" is written to output; e.g. 001=1766565 -->
-		<entity name="8564 " flushWith="8564 " reset="true">
-			<if>
+        <!-- not ok, if the record contains "9984 .9"; "8564 .?" is written to output; e.g. 001=1766565
+        <entity name="8564 " flushWith="8564 " reset="true">
+            <if>
                 <none flushWith="8564 " reset="true">
-					<data source="9984 .9" />
+                    <data source="9984 .9"/>
                 </none>
             </if>
-			<data source="8564 .u" name="u" />
-			<data source="8564 .x" name="x" />
-		</entity>
+            <data source="8564 .u" name="u"/>
+            <data source="8564 .x" name="x"/>
+        </entity> -->
+
+        <entity name="" flushWith="record">
+            <if>
+                <none flushWith="record">
+                    <data source="9984 .9"/>
+                </none>
+            </if>
+            <entity name="8564 " flushWith="8564 " sameEntity="true">
+                <data source="8564 .u" name="u"/>
+                <data source="8564 .x" name="x"/>
+            </entity>
+        </entity>
 
         <!-- ok in all cases of input -->
-		<entity name="8564 " flushWith="record">
-			<if>
+        <entity name="8564 " flushWith="record">
+            <if>
                 <all>
-					<data source="9984 .9" />
+                    <data source="9984 .9"/>
                 </all>
             </if>
-			<data source="9984 .u" name="u" />
-			<data source="9984 .z" name="z" />
-			<data source="9984 .9" name="9" />
-		</entity>
+            <data source="9984 .u" name="u"/>
+            <data source="9984 .z" name="z"/>
+            <data source="9984 .9" name="9"/>
+        </entity>
 
-		<!--
+        <!--
            >>> COPY ALL SOURCES TO TARGET <<<
         -->
 
-		<!--<data source="_else" />-->
+        <data source="_else" />
 
     </rules>
 

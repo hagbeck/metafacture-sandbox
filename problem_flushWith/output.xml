@@ -3,6 +3,27 @@
 	<marc:record>
 		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
 		<marc:controlfield tag="001">1766562</marc:controlfield>
+		<marc:controlfield tag="007">|| ||||||||||||||||||||</marc:controlfield>
+		<marc:controlfield tag="008">||||||nuuuuuuuu|||||| | |||||||||||und||</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(UNION_SEAL)TT050427953</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="0" ind2="0">
+			<marc:subfield code="a">Multivariate Network Visualization</marc:subfield>
+			<marc:subfield code="b">Dagstuhl Seminar #13201, Dagstuhl Castle, Germany, May 12-17, 2013, Revised Discussions</marc:subfield>
+			<marc:subfield code="c">edited by Andreas Kerren, Helen C. Purchase, Matthew O. Ward</marc:subfield>
+			<marc:subfield code="h">Elektronische Ressource</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+		</marc:datafield>
+		<marc:datafield tag="980" ind1="1" ind2=" ">
+			<marc:subfield code="e">HBZ</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="997" ind1=" " ind2=" ">
+			<marc:subfield code="a">20200508</marc:subfield>
+		</marc:datafield>
 		<marc:datafield tag="856" ind1="4" ind2=" ">
 			<marc:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</marc:subfield>
 			<marc:subfield code="x">Resolving-System</marc:subfield>
@@ -16,13 +37,28 @@
 	<marc:record>
 		<marc:controlfield tag="leader">00525nam a2200024 c 4500</marc:controlfield>
 		<marc:controlfield tag="001">1766565</marc:controlfield>
-		<marc:datafield tag="856" ind1="4" ind2=" ">
-			<marc:subfield code="u">http://dx.doi.org/10.1007/978-3-319-06793-3</marc:subfield>
-			<marc:subfield code="x">Resolving-System</marc:subfield>
+		<marc:controlfield tag="007">|| ||||||||||||||||||||</marc:controlfield>
+		<marc:controlfield tag="008">||||||nuuuuuuuu|||||| | |||||||||||und||</marc:controlfield>
+		<marc:datafield tag="035" ind1=" " ind2=" ">
+			<marc:subfield code="a">(UNION_SEAL)TT050427953</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="245" ind1="0" ind2="0">
+			<marc:subfield code="a">Multivariate Network Visualization</marc:subfield>
+			<marc:subfield code="b">Dagstuhl Seminar #13201, Dagstuhl Castle, Germany, May 12-17, 2013, Revised Discussions</marc:subfield>
+			<marc:subfield code="c">edited by Andreas Kerren, Helen C. Purchase, Matthew O. Ward</marc:subfield>
+			<marc:subfield code="h">Elektronische Ressource</marc:subfield>
 		</marc:datafield>
 		<marc:datafield tag="856" ind1="4" ind2=" ">
-			<marc:subfield code="u">http://bla.org/blub</marc:subfield>
-			<marc:subfield code="x">Resolving-System</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="856" ind1="4" ind2=" ">
+		</marc:datafield>
+		<marc:datafield tag="980" ind1="1" ind2=" ">
+			<marc:subfield code="e">HBZ</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="997" ind1=" " ind2=" ">
+			<marc:subfield code="a">20200508</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="998" ind1="4" ind2=" ">
 		</marc:datafield>
 		<marc:datafield tag="856" ind1="4" ind2=" ">
 			<marc:subfield code="u">http://blub.org/local</marc:subfield>

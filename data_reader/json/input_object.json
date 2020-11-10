@@ -1,0 +1,49 @@
+{
+  "id": "han_9781569905425",
+  "pubtype": "Monograph",
+  "catalog": [
+    "hanser"
+  ],
+  "publication_status": "published",
+  "version": "publischers_version",
+  "editorial_status": "imported",
+  "isbn": "9781569905425",
+  "person": [
+    {
+      "role": "aut",
+      "name": "Braun, Dietrich"
+    }
+  ],
+  "title": "Simple Methods for Identification of Plastics",
+  "edition": "5., aktualisierte und erweiterte Auflage",
+  "publisher_place": "M\u00fcnchen",
+  "publisher": "Carl Hanser Verlag GmbH & Co. KG",
+  "issued": "2013",
+  "number_of_pages": "137 S.",
+  "abstract": [
+    {
+      "language": "None",
+      "shareable": "False",
+      "content": "Processors and users of plastics often need to determine the chemical nature of a plastics specimen. This highly practical and useful manual, now in a fifth revised and supplemented edition, will enable you to determine the class of plastic of a particular specimen. No extensive knowledge of chemistry is required and yet it is more complex than a simple tabular compilation. This manual is a handy and highly effective tool for many practical situations. An additional supplement is a chapter that shows strategies for identifying historical plastic objects; this is of particular interest for assemblers and collectors, and conservators."
+    },
+    {
+      "language": "None",
+      "shareable": "False",
+      "content": "Prof. Dr. Dietrich Braun was the director of the plastics institute (Deutschen Kunststoff-Instituts (DKI)) in Darmstadt until 2000. He is also the author of many reference books and textbooks. For years, Dr. Braun has chaired workshops in plastics technology for business people as well as for first-time users, which is the basis for this book."
+    }
+  ],
+  "keyword": [
+    "Werkstoffpr\u00fcfung und Analytik"
+  ],
+  "DOI": [
+    "10.3139/9781569905425"
+  ],
+  "uri": [
+    "http://dx.doi.org/10.3139/9781569905425"
+  ],
+  "owner": [
+    "daten.ub@tu-dortmund.de"
+  ],
+  "created": "2020-04-11 10:09:09.639",
+  "changed": "2020-04-11 10:09:09.639"
+}

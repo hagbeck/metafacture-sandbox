@@ -1,0 +1,181 @@
+# Read JSON files
+
+## JSON object
+
+* open the file
+* read it as records to get s `String` object
+* decode the JSON; this function expects a `String` object
+
+Here we use `pass-through` for writing the source to the target as is. 
+Of cource you can work with data by using one or more morph steps or other 
+functions.
+
+```
+infile|
+open-file|
+as-records|
+decode-json|
+//morph(morphfile1, *)|
+pass-through|
+encode-json|
+write(outfile);
+```
+
+## JSON array
+
+* open the file
+* read it as records to get s `String` object
+* decode the JSON; this function expects a `String` object
+
+Here we use `pass-through` for writing the source to the target as is. 
+Of course you can work with data by using one or more morph steps or other 
+functions.
+
+```
+infile|
+open-file|
+as-records|
+decode-json|
+//morph(morphfile1, *)|
+pass-through|
+encode-json|
+write(outfile);
+```
+
+**ERROR!**
+
+It seems that a JSON array could not be handled in directly. A structure like
+`{ "the_array": [...]}` instead can be handled via the former approach.
+But possibly the `as-records` is not the right function before `decode-json`
+
+```
+Exception in thread "main" org.metafacture.framework.MetafactureException: Unexpected token 'START_ARRAY' at [Source: [
+  {
+    "id": "han_9781569905425",
+    "pubtype": "Monograph",
+    "catalog": [
+      "hanser"
+    ],
+    "publication_status": "published",
+    "version": "publischers_version",
+    "editorial_status": "imported",
+    "isbn": "9781569905425",
+    "person": [
+      {
+        "role": "aut",
+        "name": "Braun, Dietrich"
+      }
+    ],
+    "title": "Simple Methods for Identification of Plastics",
+    "edition": "5., aktualisierte und erweiterte Auflage",
+    "publisher_place": "M\u00fcnchen",
+    "publisher": "Carl Hanser Verlag GmbH & Co. KG",
+    "issued": "2013",
+    "number_of_pages": "137 S.",
+    "abstract": [
+      {
+        "language": "None",
+        "shareable": "False",
+        "content": "Processors and users of plastics often need to determine the chemical nature of a plastics specimen. This highly practical and useful manual, now in a fifth revised and supplemented edition, will enable you to determine the class of plastic of a particular specimen. No extensive knowledge of chemistry is required and yet it is more complex than a simple tabular compilation. This manual is a handy and highly effective tool for many practical situations. An additional supplement is a chapter that shows strategies for identifying historical plastic objects; this is of particular interest for assemblers and collectors, and conservators."
+      },
+      {
+        "language": "None",
+        "shareable": "False",
+        "content": "Prof. Dr. Dietrich Braun was the director of the plastics institute (Deutschen Kunststoff-Instituts (DKI)) in Darmstadt until 2000. He is also the author of many reference books and textbooks. For years, Dr. Braun has chaired workshops in plastics technology for business people as well as for first-time users, which is the basis for this book."
+      }
+    ],
+    "keyword": [
+      "Werkstoffpr\u00fcfung und Analytik"
+    ],
+    "DOI": [
+      "10.3139/9781569905425"
+    ],
+    "uri": [
+      "http://dx.doi.org/10.3139/9781569905425"
+    ],
+    "owner": [
+      "daten.ub@tu-dortmund.de"
+    ],
+    "created": "2020-04-11 10:09:09.639",
+    "changed": "2020-04-11 10:09:09.639"
+  },
+  {
+    "id": "han_9783446435650",
+    "pubtype": "Monograph",
+    "catalog": [
+      "hanser"
+    ],
+    "publication_status": "published",
+    "version": "publischers_version",
+    "editorial_status": "imported",
+    "isbn": "9783446435650",
+    "person": [
+      {
+        "role": "aut",
+        "name": "Schwichtenberg, Holger"
+      },
+      {
+        "role": "edt",
+        "name": "Steyer, Manfred"
+      },
+      {
+        "role": "edt",
+        "name": "Schwichtenberg, Holger"
+      },
+      {
+        "role": "edt",
+        "name": "Fischer, Matthias"
+      },
+      {
+        "role": "edt",
+        "name": "Krause, J\u00f6rg"
+      }
+    ],
+    "title": "Verteilte Systeme und Services mit .NET 4.5",
+    "subtitle": "Konzepte und L\u00f6sungen f\u00fcr WCF 4.5 und ASP.NET Web-API",
+    "edition": "2., \u00fcberarbeitete und erweiterte Auflage",
+    "publisher_place": "M\u00fcnchen",
+    "publisher": "Carl Hanser Verlag GmbH & Co. KG",
+    "issued": "2013",
+    "number_of_pages": "671 S.",
+    "abstract": [
+      {
+        "language": "None",
+        "shareable": "False",
+        "content": "VERTEILTE SYSTEME & SERVICES MIT .NET 4.5 // - F\u00fcr .NET-Entwickler, vom WCF-Einsteiger bis zum -Profi - Ideal f\u00fcr das Selbststudium, f\u00fcr das Vertiefen und Nachschlagen - Mit zahlreichen, aufeinander aufbauenden Beispiell\u00f6sungen und wertvollen Tipps - Forum f\u00fcr Fragen unter: www.it-visions.de/leser - Alle Beispiele aus dem Buch unter: http://downloads.hanser.de Mit diesem durch und durch praxisorientierten Handbuch bekommen Sie einen erstklassigen, didaktisch hervorragenden wie auch konkurrenzlosen Leitfaden an die Hand, um in .NET 4.5 komplexe Gesch\u00e4ftsprozesse planen und entwickeln zu k\u00f6nnen. Das Themenspektrum ist gro\u00df: Sie lernen alle wichtigen .NET-Technologien, Techniken und Konzepte kennen, um in .NET 4.5 verteilte Systeme, Webservices und serviceorientierte Anwendungen zu erstellen. F\u00fcr die erfolgreiche Implementierung verteilter Systeme sind neben der Windows Communication Foundation bzw. der ASP.NET Web API weitere Frameworks notwendig. Detailliert erfahren Sie, wie Sie - mittels WCF bzw. Web API und SignalR mit Systemen und Gesch\u00e4ftspartnern kommunizieren. - Gesch\u00e4ftsprozesse in Form von Workflows mit Windows Workflow Foundation automatisieren. - Single-Sign-On-Szenarien mit Windows Identity Foundation implementieren. - verschiedene Systeme \u00fcber Azure Service Bus standort\u00fcbergreifend integrieren. - mit Entity Framework, RIA- und Data-Services auf Datenbanken zugreifen. AUS DEM INHALT: Servicebasierte Systeme mit WCF umsetzen // REST-Services mit Web API erstellen // Benachrichtigungs-Szenarien mit SignalR // Single-Sign-On mit der Identity Foundation // Datenbasierte Services mit Entity Framework // Gesch\u00e4ftsprozesse mit Workflow Foundation // Systeme verbinden mit Azure Service Bus"
+      },
+      {
+        "language": "None",
+        "shareable": "False",
+        "content": "Manfred STEYER: FH-Professor und Fachbereichsleiter Software Engineering an der FH CAMPUS 02 in Graz sowie Trainer und Berater bei www.IT-Visions.de. Dr. Holger SCHWICHTENBERG: Leiter des .NET-Expertennetzwerks www.IT-Visions.de. Matthias FISCHER, J\u00f6rg KRAUSE: Trainer, Berater und Entwickler f\u00fcr .NET-Technologien."
+      }
+    ],
+    "DOI": [
+      "10.3139/9783446435650"
+    ],
+    "uri": [
+      "http://dx.doi.org/10.3139/9783446435650"
+    ],
+    "owner": [
+      "daten.ub@tu-dortmund.de"
+    ],
+    "created": "2020-04-11 10:09:09.639",
+    "changed": "2020-04-11 10:09:09.639"
+  }
+]
+; line: 1, column: 2]
+        at org.metafacture.json.JsonDecoder.decode(JsonDecoder.java:148)
+        at org.metafacture.json.JsonDecoder.process(JsonDecoder.java:102)
+        at org.metafacture.json.JsonDecoder.process(JsonDecoder.java:33)
+        at org.metafacture.io.RecordReader.emitRecord(RecordReader.java:111)
+        at org.metafacture.io.RecordReader.process(RecordReader.java:100)
+        at org.metafacture.io.RecordReader.process(RecordReader.java:39)
+        at org.metafacture.io.FileOpener.process(FileOpener.java:91)
+        at org.metafacture.io.FileOpener.process(FileOpener.java:40)
+        at org.metafacture.flux.parser.StringSender.process(StringSender.java:38)
+        at org.metafacture.flux.parser.Flow.start(Flow.java:110)
+        at org.metafacture.flux.parser.FluxProgramm.start(FluxProgramm.java:156)
+        at org.metafacture.runner.Flux.main(Flux.java:79)
+
+```
+
